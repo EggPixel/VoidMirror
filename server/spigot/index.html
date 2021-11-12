@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8" />
+        <title>VoidMirror — Spigot</title>
+        <script src="https://cdn.jsdelivr.net/npm/@triggerjs/trigger" defer></script>
+        <link rel="stylesheet" href="../../css/home.css" type="text/css"/>
+    </head>
+    <body>
+        <div tg-ref="container" id="container" tg-name="opacity" tg-from="1" tg-to="10" tg-step="1">
+            <span tg-follow="container" tg-name="opacity" tg-filter="2!" tg-map="2: 1">Select your server version:</span>
+            <br />
+            <span tg-follow="container" tg-name="opacity" tg-filter="3!" tg-map="3: 1">
+                <a href="../../resources/spigot/1.16.5.jar">1.16.5</a>
+            </span>
+            <br />
+            <span tg-follow="container" tg-name="opacity" tg-filter="4!" tg-map="4: 1">
+                <a href="../../resources/spigot/1.16.4.jar">1.16.4</a>
+            </span>
+            <br />
+            <span tg-follow="container" tg-name="opacity" tg-filter="4;5" tg-map="4: 0.3;5:1">
+                Others are being prepared!
+            </span>
+        </div>
+    </body>
+</html>
